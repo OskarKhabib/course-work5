@@ -1,0 +1,33 @@
+2024-12-10 15:22:07.826  INFO 17440 --- [main] com.example.bank_api.BankApiApplication  : Starting BankApiApplication using Java 17.0.13 on Oskar with PID 17440 (C:\Users\oskar\Downloads\course_work_rschir-master\course_work_rschir-master\target\classes started by oskar in C:\Users\oskar\Downloads\course_work_rschir-master\course_work_rschir-master)
+2024-12-10 15:22:07.835 DEBUG 17440 --- [main] com.example.bank_api.BankApiApplication  : Running with Spring Boot v2.5.5, Spring v5.3.10
+2024-12-10 15:22:07.836  INFO 17440 --- [main] com.example.bank_api.BankApiApplication  : The following profiles are active: dev
+2024-12-10 15:22:08.909  INFO 17440 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-10 15:22:08.974  INFO 17440 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 3 JPA repository interfaces.
+2024-12-10 15:22:09.475  INFO 17440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-12-10 15:22:09.484  INFO 17440 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-10 15:22:09.484  INFO 17440 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-12-10 15:22:09.552  INFO 17440 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-10 15:22:09.552  INFO 17440 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1657 ms
+2024-12-10 15:22:09.647  INFO 17440 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-10 15:22:09.916  INFO 17440 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-10 15:22:10.330  INFO 17440 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2024-12-10 15:22:10.850  INFO 17440 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2024-12-10 15:22:10.905  INFO 17440 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2024-12-10 15:22:10.905  INFO 17440 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2024-12-10 15:22:10.905  WARN 17440 --- [main] liquibase.hub                            : Skipping auto-registration
+2024-12-10 15:22:10.914  INFO 17440 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2024-12-10 15:22:11.034  INFO 17440 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-10 15:22:11.105  INFO 17440 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-12-10 15:22:11.293  INFO 17440 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-12-10 15:22:11.436  INFO 17440 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-12-10 15:22:12.052  INFO 17440 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-10 15:22:12.073  INFO 17440 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-10 15:22:12.654  WARN 17440 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-10 15:22:12.923  INFO 17440 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-12-10 15:22:13.034  INFO 17440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-12-10 15:22:13.271  INFO 17440 --- [main] com.example.bank_api.BankApiApplication  : Started BankApiApplication in 5.903 seconds (JVM running for 10.984)
+2024-12-10 15:31:53.485  INFO 17440 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10 15:31:53.485  INFO 17440 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-10 15:31:53.487  INFO 17440 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-10 15:31:54.224 DEBUG 17440 --- [http-nio-8082-exec-4] c.e.b.service.impl.AccountServiceImpl    : На клиента с id=1 заведены счета: [AccountDto(id=2, number=55555666667777788888, openingDate=2023-12-03 00:00:00.0, balance=-500, cards=[Card{id=5, cardNumber='0766229955953096', releaseDate=2024-12-03 00:00:00.0}, Card{id=6, cardNumber='2176226144938536', releaseDate=2024-12-03 00:00:00.0}, Card{id=7, cardNumber='1952183342687659', releaseDate=2024-12-03 00:00:00.0}]), AccountDto(id=1, number=11111222223333344444, openingDate=2023-11-14 00:00:00.0, balance=9100, cards=[Card{id=8, cardNumber='6894383090971493', releaseDate=2024-12-03 00:00:00.0}])]
+2024-12-10 15:31:54.224 DEBUG 17440 --- [http-nio-8082-exec-3] c.e.b.service.impl.ClientServiceImpl     : По id=1 получен клиент: ClientDto(id=1, lastname=Хабибуллин, firstname=Оскар, middlename=Рустамович, age=21, accounts=[Account{id=2, number='55555666667777788888', openingDate=2023-12-03 00:00:00.0, balance=-500, cards=[Card{id=5, cardNumber='0766229955953096', releaseDate=2024-12-03 00:00:00.0}, Card{id=6, cardNumber='2176226144938536', releaseDate=2024-12-03 00:00:00.0}, Card{id=7, cardNumber='1952183342687659', releaseDate=2024-12-03 00:00:00.0}]}, Account{id=1, number='11111222223333344444', openingDate=2023-11-14 00:00:00.0, balance=9100, cards=[Card{id=8, cardNumber='6894383090971493', releaseDate=2024-12-03 00:00:00.0}]}])
